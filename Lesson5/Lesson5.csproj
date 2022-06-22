@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="584-5844183_wings-angel-angelwings-space-galaxy-stars-star-wing.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\angel.png" />
+  </ItemGroup>
+
+</Project>
